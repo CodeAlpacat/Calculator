@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/greenPress">
+
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/green"/>
+            <corners android:radius="100dp"/>
+            <stroke android:width="1dp"
+                android:color="@color/greenPress"/>
+        </shape>
+
+    </item>
+
+
+</ripple>
+
+<!--리플은 눌렀을 때 나오는 컬러, 누르지 않았을 때는 item, 태두리 색은 stroke이다.-->
